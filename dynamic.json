@@ -1,0 +1,40 @@
+{
+  "career":{
+    "info":"to work on progressive web applications"
+  },
+  "education":[
+    {
+      "degree":"B.tech(IT)",
+      "Institution":"vignan nirula",
+      "yop":"2020",
+      "percentage":"8.0"
+    },
+    {
+      "degree":"Intermediate",
+      "Institution":"srichaitanya",
+      "yop":"2016",
+      "percentage":"81.4%"
+    },
+    {
+      "degree":"s.s.c",
+      "Institution":"sri nagarjuna high school",
+      "yop":"2014",
+      "percentage":"7.0"
+    }
+  ],
+"skills":[
+  {
+    "title":"platforms",
+    "content":"windows,linux"
+  },
+  {
+    "title":"programming language",
+    "content":"c,c++,java,python,html,css"
+  },
+  {
+    "title":"Database",
+    "content":"mysql,mongodb,plsql,sql"
+  }
+],
+"language":"telugu,english,hindi"
+}

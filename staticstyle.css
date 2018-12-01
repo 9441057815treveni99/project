@@ -1,0 +1,103 @@
+body{
+  background:lightblue;
+}
+.maindiv{
+  background:aqua;
+  margin:3%;
+  border-radius:5%;
+  display:flex;
+}
+.leftdiv{
+  background:pink;
+  margin:3%;
+  border-radius:2%;
+  box-shadow:3px 3px 3px 3px blue;
+  text-align:center;
+  height:80%;
+  position: fixed;
+margin:3%;
+width:25%
+}
+.rightdiv{
+  background:lightgreen;
+  margin:3%;
+  border-radius:5%;
+  box-shadow: 3px 3px 3px 3px;
+  width:65%;
+  padding:1%;
+  margin-left:38%;
+}
+img{
+  margin:3%;
+  height:40%;
+  width:80%;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  body{
+    background:orange;
+  }
+  .maindiv{
+    background:aqua;
+    margin:5%;
+    border-radius:5%;
+    display:inline-block;
+    justify-content:space-around;
+}
+  .leftdiv{
+    background:lightgreen;
+    margin:0%;
+    border-radius:10%;
+    box-shadow:4px 4px 4px 4px;
+    text-align:center;
+    width:100%;
+    position:relative;
+  }
+  .rightdiv{
+    background:pink;
+    margin:0%;
+    border-radius:3%;
+    box-shadow:4px 4px 4px 4px;
+    width:100%;
+  }
+  img{
+    margin:2%;
+    height:45%;
+    width:60%;
+  }
+}
+@media only screen and (min-width:680px) and (max-width:888px) {
+  body{
+    background:yellow;
+  }
+  .maindiv{
+    background:blue;
+    margin:3%;
+    border-radius:5%;
+    display:flex;
+  }
+  .leftdiv{
+    background:orange;
+    margin:3%;
+    border-radius:2%;
+    box-shadow:3px 3px 3px 3px blue;
+    text-align:center;
+    height:80%;
+    position:fixed;
+  margin:3%;
+  width:25%
+  }
+  .rightdiv{
+    background:blue;
+    margin:3%;
+    border-radius:5%;
+    box-shadow:3px 3px 3px 3px;
+    width:65%;
+    padding:1%;
+    margin-left: 8%;
+  }
+    img{
+      margin:2%;
+      height:45%;
+      width:70%;
+    }
+  }
